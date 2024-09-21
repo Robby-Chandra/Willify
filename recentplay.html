@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" class="ex-regis">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Willify | Recent Play</title>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <button class="menuBtn" id="menu-close">
+                <i class='bx bx-menu-alt-left'></i>
+            </button>
+            <i class='bx bxl-deezer' ></i>
+            <a href="Index.html">Willify</a>
+        </div>
+
+        <div class="menu">
+            <h5>Menu</h5>
+            <ul>
+                <li>
+                    <i class='bx bxs-home'></i>
+                    <a href="Index.html">Home</a>
+                </li>
+                <li>
+                    <i class='bx bx-search-alt' ></i>
+                    <a href="explore.html">Explore</a>
+                </li>
+                <li>
+                    <i class='bx bxs-music' ></i>
+                    <a href="genre.html">Genres</a>
+                </li>
+                <li>
+                    <i class='bx bxs-album' ></i>
+                    <a href="songlist.html">Songs List</a>
+                </li>
+                <!-- <li>
+                    <i class='bx bxs-microphone-alt' ></i>
+                    <a href="#">Artist</a>
+                </li> -->
+                <li>
+                    <i class='bx bx-question-mark'></i>
+                    <a href="about.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <h5>Library</h5>
+            <ul>
+                <li>
+                    <i class='bx bx-history' ></i>
+                    <a href="recentplay.html">Recent Play</a>
+                </li>
+                <!-- <li>
+                    <i class='bx bxs-music' ></i>
+                    <a href="#">Albums</a>
+                </li> -->
+                <li>
+                    <i class='bx bxs-heart' ></i>
+                    <a href="likedsong.html">Liked Songs</a>
+                </li>
+                <li>
+                    <i class='bx bxs-folder' ></i>
+                    <a href="#">Local</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu">
+            <h5>Playlist</h5>
+            <ul>
+                <li>
+                    <i class='bx bxs-plus-square' ></i>
+                    <a href="#">Create New</a>
+                </li>
+                <li>
+                    <i class='bx bxs-playlist' ></i>
+                    <a href="#">Best Pop Punk</a>
+                </li>
+                <li>
+                    <i class='bx bxs-playlist' ></i>
+                    <a href="#">Best Jazz</a>
+                </li>
+                <li>
+                    <i class='bx bxs-playlist' ></i>
+                    <a href="#">Best K-POP</a>
+                </li>
+                <li>
+                    <i class='bx bxs-playlist' ></i>
+                    <a href="#">Podcast</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="play">
+            <div class="top">
+                <img src="assets/MCR.png">
+                <h4>Black<br>Parade</h4>
+            </div>
+            <div class="bottom">
+                <i class='bx bx-headphone' ></i>
+                <p>Playing on Device</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <header>
+            <div class="nav-links">
+                <button class="menuBtn" id="menu-open">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <a href="#">Music</a>
+                <a href="#">Live</a>
+                <a href="#">Podcast</a>
+            </div>
+
+            <div class="search">
+                <i class='bx bx-search-alt' ></i>
+                <input type="text" placeholder="Type here to search">
+            </div>
+
+            <div class="profile">
+                <i class='bx bxs-notification'></i>
+                <i class='bx bxs-cog'></i>
+                <div class="user">
+                    <div class="left">
+                        <img src="assets/pfp.png">
+                    </div>
+                    <div class="right">
+                        <h5>User</h5>
+                    </div>
+                    <div class="right-2">
+                        <h5><a href="register.html">Logout</a></h5>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="recentplay">
+            <div class="icon">
+                <i class='bx bx-history'></i>
+            </div>
+            <div class="playlist-type">
+                <!-- <h5 class="playlist-name">Library</h5> -->
+                <div class="info">
+                    <h2>Your Recent Play</h2>
+                    <!-- <div class="buttons">
+                        <button>Listen Now</button>
+                        <i class='bx bxs-heart' ></i>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="recentplay-list">
+            <div class="music-list">
+                <div class="items">
+                    
+                    <a class="item" href="songdetail.html?id=blueming">
+                        <div class="info">
+                            <p>01</p>
+                            <img src="assets/IU.png">
+                            <div class="details">
+                                <h5>Blueming</h5>
+                                <p>IU</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:37</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+
+                    <a class="item" href="songdetail.html?id=drunk">
+                        <div class="info">
+                            <p>02</p>
+                            <img src="assets/keshi.png">
+                            <div class="details">
+                                <h5>drunk</h5>
+                                <p>keshi</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:47</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=lunch">
+                        <div class="info">
+                            <p>03</p>
+                            <img src="assets/billie.png">
+                            <div class="details">
+                                <h5>Lunch</h5>
+                                <p>Billie Eilish</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:00</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=sweetchild">
+                        <div class="info">
+                            <p>04</p>
+                            <img src="assets/GNR.png">
+                            <div class="details">
+                                <h5>Sweet Child O' Mine</h5>
+                                <p>Guns N's Roses</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>05:56</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=godsplan">
+                        <div class="info">
+                            <p>05</p>
+                            <img src="assets/drake.png">
+                            <div class="details">
+                                <h5>God's Plan</h5>
+                                <p>Drake</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:19</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=starboy">
+                        <div class="info">
+                            <p>06</p>
+                            <img src="assets/weeknd.png">
+                            <div class="details">
+                                <h5>Starboy</h5>
+                                <p>The Weeknd</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:51</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+
+                    <a class="item" href="songdetail.html?id=hello">
+                        <div class="info">
+                            <p>07</p>
+                            <img src="assets/adele.png">
+                            <div class="details">
+                                <h5>Hello</h5>
+                                <p>Adele</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>04:56</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=toogood">
+                        <div class="info">
+                            <p>08</p>
+                            <img src="assets/samsmith.png">
+                            <div class="details">
+                                <h5>Too Good at Goodbyes</h5>
+                                <p>Sam Smith</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:21</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+
+                    <a class="item" href="songdetail.html?id=ispy">
+                        <div class="info">
+                            <p>09</p>
+                            <img src="assets/kyle.png">
+                            <div class="details">
+                                <h5>iSpy</h5>
+                                <p>KYLE</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>04:13</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+
+                    <a class="item" href="songdetail.html?id=sayyouwont">
+                        <div class="info">
+                            <p>10</p>
+                            <img src="assets/jamesarthur.png">
+                            <div class="details">
+                                <h5>Say You Won't Let Go</h5>
+                                <p>James Arthur</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:32</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+
+                    <a class="item" href="songdetail.html?id=allofme">
+                        <div class="info">
+                            <p>11</p>
+                            <img src="assets/johnlegend.png">
+                            <div class="details">
+                                <h5>All of Me</h5>
+                                <p>John Legend</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>04:30</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                    
+                    <a class="item" href="songdetail.html?id=believer">
+                        <div class="info">
+                            <p>12</p>
+                            <img src="assets/imaginedragons.png">
+                            <div class="details">
+                                <h5>Believer</h5>
+                                <p>Imagine Dragons</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <p>03:25</p>
+                            <div class="icon">
+                                <i class='bx bxs-right-arrow' ></i>
+                            </div>
+                            <i class='bx bxs-heart' ></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">user guides</a></li>
+                        <li><a href="#">trouble shooting</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <!-- <div class="footer-logo">
+                    <div class="logo">
+                        <i class='bx bxl-deezer'></i>
+                        <a href="Index.html">Willify</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+   </footer>
+
+    <script src="JS/script.js">
+        
+    </script>
+
+</body>
+</html>

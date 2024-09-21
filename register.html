@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify | Register</title>
+    <link rel="stylesheet" href="CSS/style.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body class="regis-body">
+    <div class="left">
+        <h5 class="text">Hold Me!</h5>
+        <!-- <i class='bx bxs-down-arrow'></i> -->
+        <button class="logo">
+            <!-- <i class='bx bxl-deezer'></i> -->
+            Willify</button>
+    </div>
+    
+    <div class ="regis-section">
+        <form id="regis-form">
+            <h1>Create Your Account</h1>
+
+            <div class="inputbox">
+                <ion-icon name="text_outline"></ion-icon>
+                <input class="username" type="text" id="username" required>
+                <label class="usernameLabel" for="">Username</label>
+                <span class="error">Name must be at least 4 characters.</span>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="email_outline"></ion-icon>
+                <input class="email" type="text" id="email" required>
+                <label class="emailLabel" for="">Email (@gmail.com)</label>
+                <span class="error">Email must be end with @gmail.com.</span>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="password_outline"></ion-icon>
+                <input class="password" type="password" id="password" required>
+                <label class="passwordLabel" for="">Password</label>
+                <span class="error">Password must be at least 8 characters.</span>
+            </div>
+
+            <div class="inputbox">
+                <ion-icon name="phonenumber_outline"></ion-icon>
+                <input class="phonenumber" type="tel" id="phonenumber" required>
+                <label class="phonenumberLabel" for="">Phone Number</label>
+            </div>
+
+            <!-- <div class="range">
+                <div class="sliderValue">
+                    <span>100</span>
+                </div>
+                <div class="field">
+                    <div class="value left">0</div>
+                    <input type="range" min="0" max="100" value="100" steps="1">
+                    <div class="value right">100</div>
+                </div>
+            </div> -->
+
+            <div class="sliderContainer">
+                <p>Age: <span id="value"></span></p>
+                <input class="slider" type="range" min="1" max="100" value="1" id="ageRange" >
+                
+            </div>
+
+            <div class="gender">
+                <div class="male">
+                    <input  type="radio" name="radioBtn" required id="radio1" value="male"><label class="maleLabel" for="radio1">Male</label>
+                </div>
+                <div class="female">
+                    <input  type="radio" name="radioBtn" required id="radio2" value="female"><label class="femaleLabel" for="radio2">Female</label>
+                </div>
+            </div>
+            
+            <!-- <button>
+                <a href="home.html">Register</a>
+            </button> -->
+
+            <!-- <button class="regisBtn" onclick="enterPage()">Register</button> -->
+
+            <button type="submit" class="regisBtn" onclick="enterPage()">Register</button>
+
+            <div class="login">
+                <p>Already have account? <a href="login.html">Login</a></p>
+            </div>
+
+        </form>
+    </div class ="section">
+    <script src="JS/script.js">
+    </script>
+</body>
+</html>
